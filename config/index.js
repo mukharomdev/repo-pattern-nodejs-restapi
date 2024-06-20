@@ -1,10 +1,11 @@
 const {Sequelize} = require("../lib")
+require('dotenv').config()
 
-const Database = "users_db"
-const Username = "yodharishang"
-const Password = "yodha3129"
-const DialectPG= "postgres"
-const Host 	   = "localhost"
+const Database = process.env.DATABASE
+const Username = process.env.USERNAME
+const Password = process.env.PASSWORD
+const DialectPG= process.env.DIALECTPG
+const Host 	   = process.env.HOST
 const Pool     = {
     max: 5,
     min: 0,
