@@ -5,6 +5,7 @@ sidebar_position: 9
 
 :::warning
 
+
 Neither the Sequelize CLI nor its documentation is ready for use in Sequelize 7. If you rely on the CLI, please stay on Sequelize 6 for now.
 
 Considering the main purpose of the CLI is to run migrations, you can also try using [umzug](https://github.com/sequelize/umzug), or any
